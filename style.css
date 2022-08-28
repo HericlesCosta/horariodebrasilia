@@ -9,6 +9,7 @@ body {
     height: 100vh;
     background-color: lightcyan;
     flex-direction: column;
+    min-width: 400px;
 }
 
 h1 {
