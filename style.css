@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    background-color: lightcyan;
+    flex-direction: column;
+}
+
+h1 {
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.data {
+    display: flex;
+    text-transform: lowercase;
+}
+
+.data div {
+    margin: 10px;
+}
+
+.data span {
+    letter-spacing: 2px;
+}
+
+.relogio {
+    display: flex;
+}
+
+.relogio div {
+    margin: 10px;
+}
+
+.relogio span {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.relogio .text {
+    height: 30px;
+    font-size: 20px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
